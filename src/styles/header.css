@@ -1,0 +1,48 @@
+body {
+  background-color: rgba(219, 211, 211, 0.521);
+}
+
+.heading .box {
+  color: black;
+  background-color: white;
+  position: relative;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 0 0 10px 0;
+  border: 1px solid rgb(4, 16, 179);
+  box-shadow: 0 20px 10px 0 rgba(68, 88, 144, 0.2);
+}
+
+.box a {
+  text-decoration: none;
+}
+
+.main {
+  background-color: white;
+  padding: 60px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #000;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+@media only screen and (max-width: 678px) {
+  td,
+  th {
+    padding-right: 20px;
+  }
+}
